@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.au_reg body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+a {
+    color: #20a8be;
+    font-weight: bold;
+    text-decoration: none;
+}
+p {
+    margin: 10px 0;
+}
+
+.au_reg form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.au_reg input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+button {
+    padding: 10px;
+    background: #285efa;
+    border: unset;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
